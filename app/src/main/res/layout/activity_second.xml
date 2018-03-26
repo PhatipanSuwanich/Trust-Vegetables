@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.kmitl.phatipan.trustvegetable.activity.SecondActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="15dp">
+
+            <ImageView
+                android:id="@+id/TvSE"
+                android:layout_width="match_parent"
+                android:layout_height="269dp" />
+
+            <TextView
+                android:id="@+id/data1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="ชื่อสินค้า" />
+
+            <TextView
+                android:id="@+id/data2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ลำดับสินค้า:" />
+
+            <TextView
+                android:id="@+id/data3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ขนาดบรรจุ:" />
+
+            <TextView
+                android:id="@+id/data4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ราคา:" />
+
+            <TextView
+                android:id="@+id/data5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="รหัสผู้ผลิต:" />
+
+            <TextView
+                android:id="@+id/data6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ชื่อผู้ผลิต:" />
+
+            <TextView
+                android:id="@+id/data12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="รหัสโรงงานคัดบรรจุ:" />
+
+            <TextView
+                android:id="@+id/data13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ชื่อโรงงานคัดบรรจุ:" />
+
+            <TextView
+                android:id="@+id/data14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ล็อตวัตถุดิบ:" />
+
+            <TextView
+                android:id="@+id/data7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ชนิดผัก:" />
+
+            <TextView
+                android:id="@+id/data8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="มาตรฐาน GPA:" />
+
+            <TextView
+                android:id="@+id/data9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="มาตรฐาน GMP:" />
+
+            <TextView
+                android:id="@+id/data10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="มาตรฐาน HACCP:" />
+
+            <TextView
+                android:id="@+id/data11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="มาตรฐาน Q:" />
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "41289059520",
+    "firebase_url": "https://trust-6b784.firebaseio.com",
+    "project_id": "trust-6b784",
+    "storage_bucket": "trust-6b784.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:41289059520:android:55508f2cd89d0174",
+        "android_client_info": {
+          "package_name": "com.kmitl.phatipan.trustvegetable"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "41289059520-l9f8ujumb3aflpkjueiiv07siglr5n6a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBMESc1hOO8aJAEa-oU8biOxpYzhGfhFAM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

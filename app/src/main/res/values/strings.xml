@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Trust</string>
+    <string name="name_news">Trust News</string>
+    <string name="name_cooking">Trust Cooking</string>
+    <string name="name_farm">Trust Farm</string>
+    <string name="name_standard">Trust Standard</string>
+
+
+</resources>
